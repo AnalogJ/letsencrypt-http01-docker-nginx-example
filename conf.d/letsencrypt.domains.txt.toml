@@ -1,0 +1,6 @@
+[template]
+src = "letsencrypt.domains.txt.tmpl"
+dest = "/srv/letsencrypt/domains.txt"
+keys = [
+	"LETSENCRYPT_DOMAIN"
+]

@@ -1,0 +1,6 @@
+[template]
+src = "nginx.https.conf.tmpl"
+dest = "/etc/nginx/sites-available/https.conf"
+keys = [
+	"LETSENCRYPT_DOMAIN"
+]
